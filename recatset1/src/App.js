@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Sample from "./component/Sample";
+import AnimalImage from "./component/conditional";
+import React from "react";
+import Shreya from "./component/example";
 
-function App() {
-  return (
-    <div className="App">
 
-      {/*Sample function*/}
-      <Sample></Sample>
+function App(){
+    return(
+        <>
+        <AnimalImage />
+        <Shreya/>
+       </>
 
-    </div>
-  );
+)
+
 }
 
 export default App;
