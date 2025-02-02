@@ -1,19 +1,12 @@
 
-import React from 'react';
-import Sample2 from "./component/Sample2";
+// import Chai from "./component/Chai";
+import TeaBreak from "./component/Chai";
 
 function App()
 {
     return(
-    <>
-        <h1>Hello World !!! we are learning React js </h1>
-        <h1>Hello World !!! we are learning React js </h1>
-        <h1>Hello World !!! we are learning React js </h1>
-        <h1>Hello World !!! we are learning React js </h1>
-        <h1>Hello World !!! we are learning React js </h1>
-    </>
+        <> <TeaBreak/> </>
+    );
 
-    )
 }
-
 export default App;
