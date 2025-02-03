@@ -1,13 +1,6 @@
-
-// import Chai from "./component/Chai";
-// import TeaBreak from "./component/Chai";
-
-import React from "react";
-import Multiline from "./component/Multiline";
-
-function App()
-{
-    return (
+import React from 'react';
+function MyQuote(){
+    return(
         <blockquote>
             <p>
                 Hello we are learning react js in codecademy !!!
@@ -21,4 +14,4 @@ function App()
         </blockquote>
     );
 }
-export default App;
+export default MyQuote;
