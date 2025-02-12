@@ -1,16 +1,11 @@
-
-// import Chai from "./component/Chai";
-// import TeaBreak from "./component/Chai";
-// import Multiline from "./component/Multiline";
-import React from "react";
-import PropsDisplayer from "./component/Propspass";
-
-function App()
-{
-    return (
-       <>
-        < PropsDisplayer></PropsDisplayer>
-       </>
+import React from 'react';
+// import Test from './component/UseState';
+import Profile from "./component/Profile";
+function App() {
+    return(
+        <>
+          <Profile />
+        </>
     );
 }
 export default App;
