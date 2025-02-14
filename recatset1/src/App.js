@@ -1,10 +1,10 @@
 import React from 'react';
-// import Test from './component/UseState';
-import Profile from "./component/Profile";
-function App() {
+
+import ProfilePhoto from "./component/Profilephoto";
+function App(){
     return(
         <>
-          <Profile />
+        <ProfilePhoto />
         </>
     );
 }
