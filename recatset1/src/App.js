@@ -1,11 +1,14 @@
 import React from 'react';
+import greetings from "./component/Greetings";
+import Greetings from "./component/Greetings";
 
-import ProfilePhoto from "./component/Profilephoto";
 function App(){
     return(
-        <>
-        <ProfilePhoto />
-        </>
+    <div>
+        <h1>MovieFlix</h1>
+        <Greetings name="Shreyaa" signedIn={true}/>
+
+    </div>
     );
 }
 export default App;

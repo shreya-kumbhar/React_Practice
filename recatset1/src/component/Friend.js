@@ -13,14 +13,24 @@ const friends = [
     }
 ];
 function Friend(){
-    const friend = friends[1];
-    return(
+    const friend0 = friends[0];
+    const friend1 = friends[1];
+
+    return (
         <div>
-            <h1>{friend.title}</h1>
+            <h1>{friend0.title}</h1>
             <img
-                src = {friend.src}
+                src={friend0.src}
+
+            />
+            <h1>{friend1.title}</h1>
+            <img
+                src={friend1.src}
+
             />
         </div>
+
     )
 }
+
 export default Friend;
