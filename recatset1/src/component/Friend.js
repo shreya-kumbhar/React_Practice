@@ -18,16 +18,12 @@ function Friend(){
 
     return (
         <div>
+
             <h1>{friend0.title}</h1>
-            <img
-                src={friend0.src}
+            <img src={friend0.src}/>
 
-            />
             <h1>{friend1.title}</h1>
-            <img
-                src={friend1.src}
-
-            />
+            <img src={friend1.src}/>
         </div>
 
     )

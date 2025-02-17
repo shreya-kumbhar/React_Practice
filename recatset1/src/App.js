@@ -1,14 +1,11 @@
 import React from 'react';
-import greetings from "./component/Greetings";
-import Greetings from "./component/Greetings";
-
+import Talker2 from "./component/Talker2";
+import Button2 from "./component/Button2";
 function App(){
     return(
-    <div>
-        <h1>MovieFlix</h1>
-        <Greetings name="Shreyaa" signedIn={true}/>
-
-    </div>
-    );
+        <>
+         <Talker2 />
+        </>
+    )
 }
 export default App;
