@@ -1,10 +1,12 @@
-import React from 'react';
-import Talker2 from "./component/Talker2";
-import Button2 from "./component/Button2";
+import React from "react";
+// import Login from "./component/ArrayState2";
+ import Arrayhooks1 from "./component/Arrayhooks1";
+// import PhoneNumber from "./component/Phonenumber";
+// import PersonalPizza from "./component/Array";
 function App(){
     return(
         <>
-         <Talker2 />
+        <Arrayhooks1 />
         </>
     )
 }
